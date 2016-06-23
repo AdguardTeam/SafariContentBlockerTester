@@ -1,0 +1,15 @@
+/\.filenuke1\.com/.*[a-zA-Z0-9]{4}/$script
+test1.com
+test2.com
+test3.com
+/\.filenuke2\.com/.*[a-zA-Z0-9]{4}/$script
+/\.filenuke3\.com/.*[a-zA-Z0-9]{4}/$script
+/\.filenuke4\.com/.*[a-zA-Z0-9]{4}/$script
+test4.com
+test5.com
+/\.filenuke5\.com/.*[a-zA-Z0-9]{4}/$script
+/\.filenuke6\.com/.*[a-zA-Z0-9]{4}/$script
+test6.com
+test7.com
+test8.com
+test9.com
