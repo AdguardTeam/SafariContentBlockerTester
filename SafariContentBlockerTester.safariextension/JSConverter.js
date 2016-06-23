@@ -8544,9 +8544,9 @@ exports.SafariContentBlockerConverter = {
             urlFilter = StringUtils.replaceAll(urlFilter, UrlFilterRule.REGEXP_SEPARATOR, URL_FILTER_REGEXP_SEPARATOR);
 
             // Safari doesn't support {digit} in regular expressions
-            //if (urlFilter.match(/\{\d*.\}/g)) {
-            //    throw new Error("Safari doesn't support '{digit}' in regular expressions");
-            //}
+            if (urlFilter.match(/\{\d*.\}/g)) {
+                throw new Error("Safari doesn't support '{digit}' in regular expressions");
+            }
 
             // Safari doesn't support | in regular expressions
             if (urlFilter.match(/[^\\]+\|+\S*/g)) {
