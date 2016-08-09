@@ -18,11 +18,12 @@ curl -s -o 'filters/filter_9.txt' 'https://chrome.adtidy.org/getfilter.html?filt
 curl -s -o 'filters/filter_10.txt' 'https://chrome.adtidy.org/getfilter.html?filterid=10&key=4DDBE80A3DA94D819A00523252FB6380'
 curl -s -o 'filters/filter_11.txt' 'https://chrome.adtidy.org/getfilter.html?filterid=11&key=4DDBE80A3DA94D819A00523252FB6380'
 curl -s -o 'filters/filter_12.txt' 'https://chrome.adtidy.org/getfilter.html?filterid=12&key=4DDBE80A3DA94D819A00523252FB6380'
+curl -s -o 'JSConverter.js' 'https://raw.githubusercontent.com/AdguardTeam/SafariContentBlockerConverterCompiler/master/compiled/JSConverter.js'
 
 cd ..
 
 echo 'Copy files to extension'
-# cp -v ../SafariContentBlockerConverter/compiled/JSConverter.js ./SafariContentBlockerTester.safariextension/JSConverter.js
+cp download/JSConverter.js ./SafariContentBlockerTester.safariextension/JSConverter.js
 cp download/filters/* ./SafariContentBlockerTester.safariextension/filters/
 
 echo 'Cleaning..'
