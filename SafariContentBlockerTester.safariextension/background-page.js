@@ -79,10 +79,11 @@
 
                 return;
             } else {
-                //Wrong rule found
-                result.push(rules[0]);
-                result.push(error);
-                //console.error(rules[0]);
+                if (!(error && error.message.indexOf('Extension compilation failed: Empty extension.') >= 0)) {
+                    //Wrong rule found
+                    result.push(rules[0]);
+                    result.push(error);
+                }
             }
         }
 
