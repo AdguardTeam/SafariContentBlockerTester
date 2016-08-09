@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Builder Version</key>
-	<string>10601.5.17.4</string>
+	<string>11601.7.7</string>
 	<key>CFBundleDisplayName</key>
 	<string>SafariContentBlockerTester</string>
 	<key>CFBundleIdentifier</key>
@@ -14,12 +14,14 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>ExtensionInfoDictionaryVersion</key>
-	<string>1.0</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
 		<string>background.html</string>
 	</dict>
+	<key>DeveloperIdentifier</key>
+	<string>N33TQXN8C7</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
 </dict>
 </plist>

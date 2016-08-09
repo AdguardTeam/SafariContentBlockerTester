@@ -3,3 +3,4 @@
 .jshintrc
 *.iml
 tags
+SafariContentBlockerTester.safariextension/filters/filter_*.txt
