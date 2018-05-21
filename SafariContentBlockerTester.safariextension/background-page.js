@@ -106,12 +106,6 @@
     var files = [];
     files.push('test_filter.txt');
 
-    var i = 1;
-    while (i <= 12) {
-        files.push('filter_' + i + '.txt');
-        i++;
-    }
-
     var rules = [];
 
     for (var i = 0; i < files.length; i++) {
